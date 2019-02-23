@@ -1,0 +1,22 @@
+.container {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+.menu{
+    /* background: url("../Images/leaves.svg"); */
+    background-color: #cccccc;
+}
+
+.textContainer{
+    border-width: 5px;
+    padding:  30px;
+    border-color: #E6E894;
+    border-style: solid;
+    font-size: 30px !important;
+}
+
+p.profileText{
+ font-size: 24px;
+}

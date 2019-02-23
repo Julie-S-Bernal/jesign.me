@@ -1,0 +1,35 @@
+.App{
+    background-size: 100% auto;
+    overflow: hidden;
+    min-height: 100%;
+    position: fixed;
+    position: relative;
+}
+
+   .body{
+      padding-bottom: 2rem;
+      padding-top: 1rem;
+      min-height: 100%;
+    }
+
+h1{
+font-family: 'Karla', sans-serif;
+font-size:35px;
+text-transform: uppercase;
+color: #E9E739;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #BBBC8A;
+}
+ ul{
+    list-style-type: none;
+ }
+li{
+    list-style-type: none;
+}
+/* font-family: 'Karla', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
