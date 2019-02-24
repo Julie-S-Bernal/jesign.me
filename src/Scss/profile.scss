@@ -1,7 +1,4 @@
-.container {
-    min-height: 100%;
-    overflow: hidden;
-}
+
 
 
 .menu{
@@ -10,8 +7,9 @@
 }
 
 .textContainer{
-    border-width: 5px;
-    padding:  30px;
+    border-width: 2px;
+	padding:  30px;
+	border-radius: 5px;
     border-color: #E6E894;
     border-style: solid;
     font-size: 30px !important;

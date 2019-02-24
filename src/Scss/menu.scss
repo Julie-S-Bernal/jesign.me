@@ -1,0 +1,51 @@
+$main-bg: #dfe6e9;
+$primary: #E6E894;
+$deep-primary: darken($primary, 40%);
+
+ ul {
+    margin: 0;
+    padding: 1em;
+      li {
+        list-style: none;
+        &:hover .rounded {
+            border: solid $deep-primary 2px;
+        }
+          .rounded{
+            border: solid white 2px;
+            padding: 6px;
+            border-radius: 50px;
+            }
+          a {
+              padding: 1em;
+              color: white;
+              text-decoration: none;
+              -webkit-transition: background-color .5s;
+              -o-transition: background-color .5s;
+              transition: background-color .5s, color .5s;
+              &:hover {
+                  color: $deep-primary;
+                  font-size: 24px;
+                  .contact{
+                    border: $deep-primary;
+                  }
+              }
+              .contact {
+                  &:hover {
+                      border: $deep-primary;
+                    }
+              }
+          }
+      }
+  }
+
+  .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 35px;
+      background: #E9E739;
+      color: white;
+      .slam-left {
+          margin-right: auto;
+      }
+  }

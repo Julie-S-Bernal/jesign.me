@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import './Scss/App.css';
+import './Scss/App.scss';
 import AboutMe from './Profile/index.js';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Switch } from 'react-router';
+import Project from './Profile/projects.js';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -12,10 +14,12 @@ class App extends Component {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
         </header>
         <Router>
+        <Switch>
         <Route exact path="/" component={AboutMe} />
-        {/* <Route exact path="/skills" component={Skills} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/blog" component={Blog} /> */}
+        {/* <Route exact path="/skills" component={Skills} /> */}
+        <Route exact path="/projects" component={Project} />
+        {/* <Route exact path="/blog" component={Blog} /> */}
+        </Switch>
         </Router>
       </div>
     );

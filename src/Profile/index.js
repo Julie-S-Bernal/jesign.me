@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../Scss/App.css';
-import Menu from '../Utils/menu.js';
+import '../Scss/App.scss';
 import leaves from '../Images/leaves.svg';
-
+import Menu from '../Utils/menu.js';
+import Blog from '../Utils/blog.js'
 class Profile extends Component {
 
   state= { showBiography: true }
@@ -21,7 +21,7 @@ class Profile extends Component {
         <div>
         <div>
           <h1>About Me</h1>
-          <div className=" border rounded textContainer">
+          <div className=" border textContainer">
           <p className="profileText">Hi There, my name is Julie Bernal and I am a web developer</p>
           {/* //REVIEW THAT TEXT */}
           <p className="profileText">I design sharp and precise interface to create the best user experience</p>
@@ -46,14 +46,17 @@ class Profile extends Component {
 
   render() {
     return (
+      <div>
+      <Menu />
+      <Blog />
       <div className="row">
       <div className="col-12">
       <div className="col-6 col-left text-center">
       {this.renderText()}
       </div>
       <div className="col-6 col-right text-center menu">
-      <Menu />
-      {/* <img className="profileImage" src={leaves} alt="" /> */}
+      <img className="profileImage" src={leaves} alt="" />
+      </div>
       </div>
       </div>
       </div>
