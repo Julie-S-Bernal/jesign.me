@@ -46,18 +46,16 @@ class Profile extends Component {
 
   render() {
     return (
-      <div className="row px-4">
-      {/* <div className="col-12"> */}
+      <div className="row">
+      <div className="col-12">
       <div className="col-6 col-left text-center">
       {this.renderText()}
       </div>
       <div className="col-6 col-right text-center menu">
       <Menu />
-      <div>
-      <img className="profileImage" src={leaves} alt="" />
+      {/* <img className="profileImage" src={leaves} alt="" /> */}
       </div>
       </div>
-      {/* </div> */}
       </div>
     );
   }
