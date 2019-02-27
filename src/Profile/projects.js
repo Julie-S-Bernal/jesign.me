@@ -8,8 +8,15 @@ class Profile extends Component {
     return (
       <div class="container">
   <div class="row">
-    <div class="col-6">col-sm-8</div>
-    <div class="col-6">col-sm-4</div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
   </div>
 </div>
     );

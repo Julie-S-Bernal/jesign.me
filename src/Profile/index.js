@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../Scss/App.scss';
 import leaves from '../Images/leaves.svg';
 import Menu from '../Utils/menu.js';
-import Blog from '../Utils/blog.js'
 class Profile extends Component {
 
   state= { showBiography: true }
@@ -18,8 +17,8 @@ class Profile extends Component {
   renderText = () => {
     if(this.state.showBiography) {
       return (
-        <div>
-        <div>
+        // <div>
+        <div className="col-6">
           <h1>About Me</h1>
           <div className=" border textContainer">
           <p className="profileText">Hi There, my name is Julie Bernal and I am a web developer</p>
@@ -31,14 +30,16 @@ class Profile extends Component {
           <i class="fas fa-chevron-right"  onClick={this.handleShowNextpage}></i>
           </div>
           </div>
-          </div>
+          // </div>
       )
     } return(
-      <div>
+      <div className="col-6 border textContainer">
+      <div className=" border textContainer">
       <h1>Bio</h1>
       <p>I was raised...</p>
       <div className="col-4">
       <i class="fas fa-chevron-left" onClick={this.handleShowPreviousPage}></i>
+      </div>
       </div>
       </div>
     )
@@ -46,17 +47,21 @@ class Profile extends Component {
 
   render() {
     return (
-      <div>
+      //increase size of background image and make it a bit more for width
+      //bootstrap issue?
+      <div className="container-fluid">
       <Menu />
-      <Blog />
-      <div className="row">
-      <div className="col-12">
-      <div className="col-6 col-left text-center">
+      <div className="row backgroundimage ">
+      <div className="col-12 ">
+       <div className="col-6 col-left">
+       HI
+      </div>
+      {/* <div className="col-6"> */}
       {this.renderText()}
+      {/* </div> */}
+      <div className="col-6">
       </div>
-      <div className="col-6 col-right text-center menu">
-      <img className="profileImage" src={leaves} alt="" />
-      </div>
+      col-right
       </div>
       </div>
       </div>

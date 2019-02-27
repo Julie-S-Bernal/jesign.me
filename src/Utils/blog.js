@@ -24,13 +24,13 @@ class Blog extends React.Component {
                 lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
               </p>
             </div>
-            <div class="blogTags">
+            {/* <div class="blogTags">
               <ul>
                   <li><a href="#">css</a></li>
                 <li><a href="#">Javscript</a></li>
                 <li><a href="#">HTML5</a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
  <div class="postFooter">
     <ul>

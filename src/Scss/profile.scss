@@ -1,5 +1,22 @@
 
 
+.backgroundimage {
+    background: url('../Images/leaves.svg') center no-repeat;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-height: 100%;
+    position: fixed;
+    background-position: bottom;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+   }
+
+.okay{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
 
 .menu{
     /* background: url("../Images/leaves.svg"); */
