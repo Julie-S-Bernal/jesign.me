@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../Scss/App.scss';
-import leaves from '../Images/leaves.svg';
 import Menu from '../Utils/menu.js';
 class Profile extends Component {
 
@@ -20,7 +19,7 @@ class Profile extends Component {
         // <div>
         <div className="col-6">
           <h1>About Me</h1>
-          <div className=" border textContainer">
+          <div className=" border rowContainer textContainer">
           <p className="profileText">Hi There, my name is Julie Bernal and I am a web developer</p>
           {/* //REVIEW THAT TEXT */}
           <p className="profileText">I design sharp and precise interface to create the best user experience</p>
@@ -34,7 +33,7 @@ class Profile extends Component {
       )
     } return(
       <div className="col-6 border textContainer">
-      <div className=" border textContainer">
+      <div className=" border rowContainer  textContainer">
       <h1>Bio</h1>
       <p>I was raised...</p>
       <div className="col-4">
@@ -49,11 +48,13 @@ class Profile extends Component {
     return (
       //increase size of background image and make it a bit more for width
       //bootstrap issue?
-      <div className="container-fluid">
+      <div className="backgroundimage strech m-0 " >    
       <Menu />
-      <div className="row backgroundimage ">
+      <div class="slideshow">
+   <div class="images"/>
+      <div className="row ">
       <div className="col-12 ">
-       <div className="col-6 col-left">
+       <div className="col-6  col-left">
        HI
       </div>
       {/* <div className="col-6"> */}
@@ -62,6 +63,7 @@ class Profile extends Component {
       <div className="col-6">
       </div>
       col-right
+      </div>
       </div>
       </div>
       </div>

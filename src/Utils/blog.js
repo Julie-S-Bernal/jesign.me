@@ -2,7 +2,6 @@ import React from 'react';
 
 class Blog extends React.Component {
 
-
   render() {
     return (
       <div class=" container postContainer col-12">
