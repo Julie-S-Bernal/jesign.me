@@ -49,9 +49,10 @@ class Profile extends Component {
       //increase size of background image and make it a bit more for width
       //bootstrap issue?
       <div className="backgroundimage strech m-0 " >    
+         <div class=" stylie images"/>
       <Menu />
-      <div class="slideshow">
-   <div class="images"/>
+      <div class="">
+
       <div className="row ">
       <div className="col-12 ">
        <div className="col-6  col-left">

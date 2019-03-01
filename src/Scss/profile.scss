@@ -34,6 +34,7 @@
 
 .textContainer{
     border-width: 2px;
+    z-index: 200;
 	padding:  30px;
 	border-radius: 5px;
     border-color: #E6E894;
@@ -52,14 +53,33 @@ p.profileText{
   .images {
     background: url('../Images/rainBackground.svg');
     position: absolute;
-    background-color: red;
-    left: 0;
+    // background-color: red;
+    bottom: 0;
     top: 0;
     height: 100%;
-    width: 300%;
-    animation: slideshow 10s linear infinite;
+    width: 100%;
+    animation: slideshow 5s linear infinite;
   }
   @keyframes slideshow {
     0%    { left: 0; }
     100%  { left: -200%; }
   }
+
+  .stylie {
+    animation-name: stylie-transform-keyframes;
+    animation-duration: 5000ms;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    height: 900000%;
+    width: 100%;
+    // animation-delay: 10ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 0 0;
+  }
+  @keyframes stylie-transform-keyframes {
+    0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+    100% {transform:translate(-5px, 554px) scale(1) rotateX(4deg) rotateY(1deg) rotateZ(0deg) translate(-50%, -50%);}
+  }html::after { content: url('../Images/rainBackground.svg'); position: absolute;  }
