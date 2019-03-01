@@ -51,11 +51,10 @@ class Profile extends Component {
       <div className="backgroundimage strech m-0 " >    
          <div class=" stylie images"/>
       <Menu />
-      <div class="">
 
-      <div className="row ">
+      <div className="row above ">
       <div className="col-12 ">
-       <div className="col-6  col-left">
+       <div className="col-6 col-left">
        HI
       </div>
       {/* <div className="col-6"> */}
@@ -64,7 +63,6 @@ class Profile extends Component {
       <div className="col-6">
       </div>
       col-right
-      </div>
       </div>
       </div>
       </div>
