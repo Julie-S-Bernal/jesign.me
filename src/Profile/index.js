@@ -17,14 +17,12 @@ class Profile extends Component {
     if(this.state.showBiography) {
       return (
         // <div>
-        <div className="col-6">
+          <div className="rowContainer textContainer">
           <h1>About Me</h1>
-          <div className=" border rowContainer textContainer">
           <p className="profileText">Hi There, my name is Julie Bernal and I am a web developer</p>
           {/* //REVIEW THAT TEXT */}
           <p className="profileText">I design sharp and precise interface to create the best user experience</p>
           <p className="profileText">I code with React, React Native, Redux and Node.js</p>
-          </div>
           <div className="col-4">
           <i class="fas fa-chevron-right"  onClick={this.handleShowNextpage}></i>
           </div>
@@ -32,13 +30,11 @@ class Profile extends Component {
           // </div>
       )
     } return(
-      <div className="col-6 border textContainer">
-      <div className=" border rowContainer  textContainer">
+      <div className="rowContainer  textContainer">
       <h1>Bio</h1>
       <p>I was raised...</p>
       <div className="col-4">
       <i class="fas fa-chevron-left" onClick={this.handleShowPreviousPage}></i>
-      </div>
       </div>
       </div>
     )
@@ -51,18 +47,12 @@ class Profile extends Component {
       <div className="backgroundimage strech m-0 " >    
          <div class=" stylie images"/>
       <Menu />
+      <div class="">
 
-      <div className="row above ">
-      <div className="col-12 ">
-       <div className="col-6 col-left">
-       HI
-      </div>
+      <div className="row ">
       {/* <div className="col-6"> */}
       {this.renderText()}
       {/* </div> */}
-      <div className="col-6">
-      </div>
-      col-right
       </div>
       </div>
       </div>
