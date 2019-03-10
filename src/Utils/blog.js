@@ -9,18 +9,15 @@ class Blog extends React.Component {
       <div className="col-10">
        <div class="postBody">
             <div>
-              <h1 className="title">Code</h1>
+              <h1 className="title">{this.props.title}</h1>
+            </div>
+            <div>
+              <h2 className="subTitle">{this.props.subTitle}</h2>
             </div>
             <hr />
             <div class="postSummary">
               <p>
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum ipsum
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
-                lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+                {this.props.body}
               </p>
             </div>
             {/* <div class="blogTags">

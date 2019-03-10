@@ -189,7 +189,7 @@ renderJobSection = () => {
     </div>
     <div className="col-sm-10">
    <h1>Work Experience</h1>
-   <h2>NewcrossHealthcare</h2>
+   <h2>Newcross Healthcare</h2>
    <hr />
    <h3> React | React Native | Node.js | Redux | Jira | Firebase | Confluence </h3>
     <p>
