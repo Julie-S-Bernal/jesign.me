@@ -8,17 +8,50 @@ html {
     z-index: -100;
 
 }
-
+// Add mediaQuery to adapt font size for mobile devices
 h1{
 font-family: 'Karla', sans-serif;
-font-size:35px;
+font-size:1.5em;
+margin: 0;
 text-transform: uppercase;
 color: #E9E739;
+}
+
+h2{
+  font-family: 'Karla', sans-serif;
+font-size:0.6em;
+margin: 0;
+text-transform: uppercase;
+color: #D5E19D;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px; 
+  font-weight: Lighter;
+}
+
+h4{
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  margin: 0;
 }
 
 p{
   font-family: 'Ubuntu', sans-serif;
   color: #BBBC8A;
+  font-size: 14px;
+}
+
+hr{
+  color: #B4CF34;
+  height: 5px;
+  border: 0px solid #B4CF34;
+  border-top-width: 0.05em;
 }
  ul{
     list-style-type: none;

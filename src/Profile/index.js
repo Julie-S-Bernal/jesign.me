@@ -16,23 +16,20 @@ class Profile extends Component {
   renderText = () => {
     if(this.state.showBiography) {
       return (
-        // <div>
           <div className="rowContainer textContainer">
-          <h1>About Me</h1>
-          <p className="profileText">Hi There, my name is Julie Bernal and I am a web developer</p>
-          {/* //REVIEW THAT TEXT */}
-          <p className="profileText">I design sharp and precise interface to create the best user experience</p>
+          <h1 className=""> About Me</h1>
+          <p className="profileText">Hi, my name is Julie Bernal and I am a Web Developer.</p>
+          <p className="profileText">I design sharp interfaces to create the best user experience.</p>
           <p className="profileText">I code with React, React Native, Redux and Node.js</p>
           <div className="col-4">
           <i class="fas fa-chevron-right"  onClick={this.handleShowNextpage}></i>
           </div>
           </div>
-          // </div>
       )
     } return(
       <div className="rowContainer  textContainer">
       <h1>Bio</h1>
-      <p>I was raised...</p>
+      <p>incoming...</p>
       <div className="col-4">
       <i class="fas fa-chevron-left" onClick={this.handleShowPreviousPage}></i>
       </div>

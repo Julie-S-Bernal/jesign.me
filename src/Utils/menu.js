@@ -10,13 +10,13 @@ class Menu extends React.Component {
         <nav>
           <ul className="nav">
             <li className="nav-item">
-          <Link to="/skills">Skills <i class=" rounded fas fa-code"></i></Link>
+          <Link to="/skills">Skills <i class=" rounded fas fa-code" /></Link>
         </li>
         <li className="nav-item">
-          <Link to="/projects">Projects <i class="rounded far fa-folder-open"></i></Link>
+          <Link to="/projects">Projects <i class="rounded far fa-folder-open"/></Link>
         </li>
         <li className="nav-item">
-          <Link to="/blog">Blog  <i class=" rounded fas fa-laptop-code"></i></Link>
+          <Link to="/blog"> Blog  <i class=" rounded fas fa-laptop-code"/></Link>
           </li>
           </ul>
         </nav>
