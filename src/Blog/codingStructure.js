@@ -9,18 +9,14 @@ class codingStructure extends Component {
     return (
       //increase size of background image and make it a bit more for width
       //bootstrap issue?
-      <div className="backgroundimage strech m-0 " >    
-         <div class=" stylie images"/>
-      <Menu />
-      <div class="">
-
+      <div>
       <div className="row ">
       {/* <div className="col-6"> */}
       <Blog
-      title="hello"
+      title=""
+      body=""
       />
       {/* </div> */}
-      </div>
       </div>
       </div>
     );
