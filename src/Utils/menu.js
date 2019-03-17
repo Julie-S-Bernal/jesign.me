@@ -1,23 +1,34 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
 
 class Menu extends React.Component {
 
+
     render() {
       return (
         <nav>
           <ul className="nav">
+          { window.location.pathname !== '/skills' &&
             <li className="nav-item">
-          <Link to="/skills">Skills <i class=" rounded fas fa-code" /></Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/projects">Projects <i class="rounded far fa-folder-open"/></Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/blog"> Blog  <i class=" rounded fas fa-laptop-code"/></Link>
+            <Link to="/skills">Skills <i class=" rounded fas fa-code" /></Link>
+            </li>
+         }
+          { window.location.pathname !== '/projects' &&
+          <li className="nav-item">
+            <Link to="/projects">Projects <i class="rounded far fa-folder-open"/></Link>
           </li>
+          }
+          { window.location.pathname !== '/blog' &&
+          <li className="nav-item">
+            <Link to="/blog"> Blog  <i class=" rounded fas fa-laptop-code"/></Link>
+          </li>
+           }
+          { window.location.pathname !== '/' &&
+          <li className="nav-item">
+            <Link to="/">About me  <i class=" rounded fas fa-cat"></i></Link>
+          </li>
+          }
           </ul>
         </nav>
       );

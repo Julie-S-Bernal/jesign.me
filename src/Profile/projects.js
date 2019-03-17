@@ -1,29 +1,22 @@
 import React, { Component } from 'react';
 import '../Scss/App.scss';
+import Menu from '../Utils/menu.js';
 
-
-class Profile extends Component {
+class Projects extends Component {
 
   render() {
     return (
-      <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>
-    );
+      <div className="backgroundimage strech m-0 " >
+      <div class=" stylie images"/>
+   <Menu />
+   <div class="">
+   </div>
+   </div>
+    )
   }
 }
 
-export default Profile;
+export default Projects;
 
 
 

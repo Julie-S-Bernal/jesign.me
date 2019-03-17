@@ -11,7 +11,7 @@ class codingStructure extends Component {
       //bootstrap issue?
       <div>
       <div className="row ">
-      {/* <div className="col-6"> */}
+      {/* <div className=""> */}
       <Blog
       title=""
       body=""

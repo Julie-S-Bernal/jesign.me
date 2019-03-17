@@ -17,11 +17,11 @@ class Profile extends Component {
     if(this.state.showBiography) {
       return (
           <div className="rowContainer textContainer">
-          <h1 className=""> About Me</h1>
+          <h1> About Me</h1>
           <p className="profileText">Hi, my name is Julie Bernal and I am a Web Developer.</p>
           <p className="profileText">I design sharp interfaces to create the best user experience.</p>
           <p className="profileText">I code with React, React Native, Redux and Node.js</p>
-          <div className="col-4">
+          <div className="col-12">
           <i class="fas fa-chevron-right"  onClick={this.handleShowNextpage}></i>
           </div>
           </div>

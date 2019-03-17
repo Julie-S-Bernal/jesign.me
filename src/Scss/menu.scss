@@ -4,11 +4,12 @@ $deep-primary: darken($primary, 40%);
 
  ul {
     margin: 0;
-    padding: 1em;
+    padding-top: 1em;
       li {
         list-style: none;
         &:hover .rounded {
             border: solid $deep-primary 2px;
+            text-decoration:none;
         }
           .rounded{
             border: solid white 2px;
@@ -16,14 +17,16 @@ $deep-primary: darken($primary, 40%);
             border-radius: 50px;
             }
           a {
-              padding: 1em;
+            padding-left: 1em;
               color: white;
               text-decoration: none;
               -webkit-transition: background-color .5s;
               -o-transition: background-color .5s;
               transition: background-color .5s, color .5s;
               &:hover {
+                text-decoration:none;
                   color: $deep-primary;
+                  text-decoration: none;
                   font-size: 24px;
                   .contact{
                     border: $deep-primary;
@@ -42,7 +45,8 @@ $deep-primary: darken($primary, 40%);
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      height: 35px;
+      height: 4rem;
+      text-decoration: none;
       background: #E9E739;
       color: white;
       .slam-left {
