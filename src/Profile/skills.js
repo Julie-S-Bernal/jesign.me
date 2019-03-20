@@ -182,13 +182,13 @@ currentSkills = [
 renderJobSection = () => {
 
   return (
-    <div className="row  container textContainer col-8">
-    <div>
-      <div className="col-sm-2">
+    <div className="container ">
+     <h1>Work Experience</h1>
+    <div className="row">
+      <div className="col-2">
     <h4> React Front End Developer</h4>
     </div>
-    <div className="col-sm-10">
-   <h1>Work Experience</h1>
+    <div className="col-10">
    <h2>Newcross Healthcare</h2>
    <hr />
    <h3> React | React Native | Node.js | Redux | Jira | Firebase | Confluence </h3>
@@ -206,15 +206,21 @@ code to support new functionalities, and systematically added unit tests to incr
 </p>
 </div>
 </div>
-<div>
-   <h2>General Assembly</h2>
-   <hr />
-    <p>
+<div className="row">
+<div className="col-2"></div>
+    <div className="col-10">
+      <h2>Web development Immersive</h2>
+      <hr />
+      <p>
 writte text here....
-
-    </p>
-    </div>
-<div>
+</p>
+</div>
+</div>
+<div className="row">
+<div className="col-2">
+ <h4>UX Designer </h4>
+</div>
+<div className="col-10">
     <h2>Oak Foundation</h2>
    <hr />
    <h3> HTML5 | CSS3 | ADOBE ILLUSTRATOR | ADOBE PHOTOSHOP | ADOBE INDESIGN </h3>
@@ -225,13 +231,14 @@ writte text here....
     I edited a video that advocates the rights of paperless individuals.
     </p>
     </div>
-   </div>
+  </div>
+  </div>
   )
 }
 
 renderEducationSection = () => {
   return (
-  <div className=" row  container textContainer col-8">
+  <div className=" row  container textContainer">
   <div className="col-sm-10">
  <h1>Education</h1>
  <h2>General Assembly</h2>
@@ -274,7 +281,7 @@ Courses included: Diplomacy, History, Political Studies, International & Humanit
 
 renderSkills = () => {
   return (
-  <div className=" row  container textContainer col-8">
+  <div className=" row  container textContainer">
   <div className="col-sm-10">
  <h1>Education</h1>
  <h2>General Assembly</h2>
