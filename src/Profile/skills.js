@@ -282,9 +282,11 @@ Courses included: Diplomacy, History, Political Studies, International & Humanit
 renderHeader = () => {
   return(
     <div className="col-12">
+    <div className="pictureContainer" align="center" >
     <div class="pulse1"></div>
     <div class="pulse2"></div>
     <div class="icon"></div>
+    </div>
     <h1>Julie Bernal</h1>
     <h2>Fron-end Web Developer at Newcross Healthcare</h2>
     </div>
