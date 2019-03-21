@@ -41,6 +41,14 @@ $deep-primary: darken($primary, 40%);
       }
   }
 
+  .name {
+    color: white;
+    padding-right: 0.5rem;
+    font-size: 1.4rem;
+    margin-bottom: !important 0;
+
+  }
+
   .nav {
       display: -webkit-box;
       display: -ms-flexbox;

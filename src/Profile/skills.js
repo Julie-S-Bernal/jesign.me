@@ -183,7 +183,7 @@ renderJobSection = () => {
 
   return (
     <div className="container ">
-     <h1>Work Experience</h1>
+     <h4>Work Experience</h4>
     <div className="row">
       <div className="col-2">
     <h4> React Front End Developer</h4>
@@ -279,6 +279,18 @@ Courses included: Diplomacy, History, Political Studies, International & Humanit
   )
 }
 
+renderHeader = () => {
+  return(
+    <div className="col-12">
+    <div class="pulse1"></div>
+    <div class="pulse2"></div>
+    <div class="icon"></div>
+    <h1>Julie Bernal</h1>
+    <h2>Fron-end Web Developer at Newcross Healthcare</h2>
+    </div>
+  )
+}
+
 renderSkills = () => {
   return (
   <div className=" row  container textContainer">
@@ -301,6 +313,9 @@ Courses: Javascript( jQuery, Angular, EJS and React) Ruby, Ruby on Rails, MEAN a
       <div className="m-0 " >
          <div class=""/>
       <Menu />
+      <div className="row">
+      {this.renderHeader()}
+      </div>
       <div className="row colorGreen">
       {/* { this.renderIconList()} */}
       {this.renderJobSection()}

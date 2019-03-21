@@ -29,6 +29,9 @@ class Menu extends React.Component {
             <Link to="/">About me  <i class=" rounded fas fa-cat"></i></Link>
           </li>
           }
+            <li className="nav-item ml-auto">
+            <p className="name"> Julie Bernal</p>
+            </li>
           </ul>
         </nav>
       );
